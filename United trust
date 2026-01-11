@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>United Trust — Together We Rise</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.6;
+  background:#fafafa;
+  color:#2c3e50;
+}
+header{
+  background:linear-gradient(135deg,#1a237e,#0d47a1,#01579b);
+  color:#fff;
+  text-align:center;
+  padding:3rem 1rem;
+}
+header h1{
+  font-size:2.5rem;
+  letter-spacing:2px;
+}
+header p{
+  font-size:1.2rem;
+  margin-top:.5rem;
+}
+.counter-banner{
+  margin-top:1.5rem;
+  padding:1rem;
+  border:2px solid #ffd700;
+  border-radius:10px;
+  display:inline-block;
+}
+.counter{
+  font-size:2.5rem;
+  font-weight:bold;
+  color:#ffd700;
+}
+.hero{
+  background:linear-gradient(135deg,rgba(13,71,161,.9),rgba(1,87,155,.9)),
+  url("https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  padding:4rem 1.5rem;
+  text-align:center;
+}
+.hero h2{
+  font-size:2.2rem;
+  margin-bottom:1rem;
+}
+.hero p{
+  max-width:700px;
+  margin:0 auto 2rem;
+  font-size:1.15rem;
+}
+.cta{
+  display:inline-block;
+  background:#ff6b6b;
+  color:#fff;
+  padding:1rem 2.5rem;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:1.1rem;
+}
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:3rem 1.5rem;
+}
+section{margin-bottom:4rem}
+h3{
+  color:#1a237e;
+  margin-bottom:1rem;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:1.5rem;
+}
+.card{
+  background:#fff;
+  padding:2rem;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  text-align:center;
+}
+.card strong{
+  font-size:2rem;
+  color:#d32f2f;
+}
+.story{
+  background:linear-gradient(135deg,#5e35b1,#7e57c2);
+  color:#fff;
+  padding:4rem 1.5rem;
+  border-radius:20px;
+}
+.story p{
+  max-width:850px;
+  margin:1rem auto;
+  font-size:1.15rem;
+}
+.pledge{
+  background:linear-gradient(135deg,#2e7d32,#388e3c);
+  color:#fff;
+  padding:4rem 1.5rem;
+  border-radius:20px;
+}
+.pledge h2{text-align:center;margin-bottom:1rem}
+.pledge .card{
+  background:rgba(255,255,255,.15);
+  color:#fff;
+  border:1px solid rgba(255,255,255,.3);
+}
+.vision .card{
+  border-top:4px solid #0d47a1;
+}
+footer{
+  background:#1a237e;
+  color:#fff;
+  text-align:center;
+  padding:2.5rem 1rem;
+}
+footer p{margin:.5rem 0}
+@media(max-width:768px){
+  header h1{font-size:2rem}
+  .hero h2{font-size:1.7rem}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>UNITED TRUST</h1>
+  <p>Together We Rise. Together We Thrive.</p>
+  <div class="counter-banner">
+    <div class="counter">247</div>
+    <div>Members standing together</div>
+  </div>
+</header>
+
+<div class="hero">
+  <h2>The Time for Change Is Now</h2>
+  <p>
+    We work harder, earn less, and fall further behind.
+    United Trust is about reclaiming power — together.
+  </p>
+  <a href="#join" class="cta">Take the Pledge</a>
+</div>
+
+<div class="container">
+
+<section>
+  <h3>The Reality</h3>
+  <div class="grid">
+    <div class="card">
+      <strong>62%</strong>
+      <p>Live paycheck to paycheck</p>
+    </div>
+    <div class="card">
+      <strong>40%+</strong>
+      <p>Income spent on housing</p>
+    </div>
+    <div class="card">
+      <strong>Millions</strong>
+      <p>Work multiple jobs to survive</p>
+    </div>
+  </div>
+</section>
+
+<section class="story">
+  <h3>This Is About Us</h3>
+  <p>
+    United Trust wasn’t born in a boardroom.
+    It came from kitchens, break rooms, and late-night talks.
+  </p>
+  <p>
+    Alone we struggle. Together we build leverage, ownership,
+    and freedom.
+  </p>
+</section>
+
+<section class="pledge">
+  <h2>The 10K-30-1 Pledge</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>10,000</strong>
+      <p>No money until we reach critical mass</p>
+    </div>
+    <div class="card">
+      <strong>$30</strong>
+      <p>Per month after activation</p>
+    </div>
+    <div class="card">
+      <strong>+1</strong>
+      <p>Bring one person who believes each month</p>
+    </div>
+  </div>
+</section>
+
+<section class="vision">
+  <h3>What We Build Together</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>🏠 Housing</h4>
+      <p>Collective ownership and stability</p>
+    </div>
+    <div class="card">
+      <h4>👶 Childcare</h4>
+      <p>Accessible, affordable support</p>
+    </div>
+    <div class="card">
+      <h4>🚗 Insurance</h4>
+      <p>Member-owned coverage</p>
+    </div>
+  </div>
+</section>
+
+<section id="join" style="text-align:center">
+  <h3>Ready to Stand Together?</h3>
+  <p style="margin:1rem 0;font-size:1.1rem">
+    No payment. No risk. Just commitment.
+  </p>
+  <a href="#" class="cta">I Take the Pledge</a>
+</section>
+
+</div>
+
+<footer>
+  <p><strong>United Trust</strong></p>
+  <p>Together We Rise</p>
+</footer>
+
+</body>
+</html>
